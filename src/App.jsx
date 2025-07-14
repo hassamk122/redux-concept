@@ -1,13 +1,15 @@
+import AddTodo from "./components/AddTodo"
+import Todos from "./components/Todos"
 
 
 function App() {
 
 
   return (
-    <>
-    <h1 className="text-2xl font-extrabold">Hassam</h1>
-
-    </>
+    <div className="flex items-center flex-col">
+    <AddTodo/>
+    <Todos/>
+    </div>
   )
 }
 
